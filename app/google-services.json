@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "841781114879",
+    "project_id": "agendaunivalle",
+    "storage_bucket": "agendaunivalle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841781114879:android:5f26abf497f0db684b59ca",
+        "android_client_info": {
+          "package_name": "com.vitanova.agendaunivalle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841781114879-ehgpomfcc0h3l0h5a0e4mktmkcnrpamo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vitanova.agendaunivalle",
+            "certificate_hash": "6637601f8be153c2a0e38214a705bbad00afe14f"
+          }
+        },
+        {
+          "client_id": "841781114879-9ld1br4euolud3bprg4redvvgfprlajq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMP_2YUCg5XuQ7IQ5ulm4qCTtF2EA4nGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841781114879-9ld1br4euolud3bprg4redvvgfprlajq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
