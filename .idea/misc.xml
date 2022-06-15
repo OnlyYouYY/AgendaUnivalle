@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/-VITANOVA-/AndroidStudioProjects/AgendaUnivalle/app/src/main/res/layout/activity_agregar_nota.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/-VITANOVA-/AndroidStudioProjects/AgendaUnivalle/app/src/main/res/layout/activity_agregar_notas2.xml" value="0.14166666666666666" />
         <entry key="..\:/Users/-VITANOVA-/AndroidStudioProjects/AgendaUnivalle/app/src/main/res/layout/activity_login.xml" value="0.35104166666666664" />
         <entry key="..\:/Users/-VITANOVA-/AndroidStudioProjects/AgendaUnivalle/app/src/main/res/layout/activity_main.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/-VITANOVA-/AndroidStudioProjects/AgendaUnivalle/app/src/main/res/layout/activity_menu_principal.xml" value="0.35104166666666664" />
         <entry key="..\:/Users/-VITANOVA-/AndroidStudioProjects/AgendaUnivalle/app/src/main/res/layout/activity_pantalla_de_carga.xml" value="0.35104166666666664" />
         <entry key="..\:/Users/-VITANOVA-/AndroidStudioProjects/AgendaUnivalle/app/src/main/res/layout/activity_registro.xml" value="0.35104166666666664" />
       </map>

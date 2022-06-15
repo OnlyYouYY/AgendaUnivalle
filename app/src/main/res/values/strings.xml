@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Agenda Univalle</string>
-    
+
     <!--MAIN ACTIVITY-->
     <string name="Btn_Login">Login</string>
     <string name="Btn_Registro">Registro</string>
@@ -13,4 +13,27 @@
     <string name="ConfirmarContraseñaEt">Confirmar contraseña</string>
     <string name="RegistrarUsuario">Registrar</string>
     <string name="TengounacuentaTXT">Tengo una Cuenta</string>
+
+
+    <!--Actividad Login-->
+    <string name="IniciarSesion">Iniciar sesion</string>
+    <string name="CorreoLogin">Correo</string>
+    <string name="PassLogin">Contraseña</string>
+    <string name="Btn_Logeo">Ingresar</string>
+    <string name="UsuarioNuevoTXT">¿No tienes una cuenta?. Registrate</string>
+
+    <!--Menu Principal Diseño-->
+    <string name="UidPrincipal">--</string>
+    <string name="BienvenidoPrincipal">Bienvenido(a)</string>
+    <string name="NombresPrincipal">--</string>
+    <string name="CorreoPrincipal">--</string>
+
+    <string name="AgregarNotas">Agregar</string>
+    <string name="ListarNotas">Mis Notas</string>
+    <string name="Archivados">Archivados</string>
+    <string name="Perfil">Perfil</string>
+    <string name="AcercaDe">Acerca De</string>
+    <string name="CerrarSesion">Salir</string>
+
+    <!---->
 </resources>
