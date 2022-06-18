@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgregarNota.Agregar_Nota">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <!--UID USUARIO-->
+        <TextView
+            android:id="@+id/Uid_Usuario"
+            android:hint="@string/Uid_Usuario"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins">
+        </TextView>
+        <!--CORREO USUARIO-->
+        <TextView
+            android:id="@+id/Correo_Usuario"
+            android:hint="@string/Correo_Usuario"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins">
+        </TextView>
+
+        <!--ICONO TEXTVIEW-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!--ICONO-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/fecha_hora_registro">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <TextView
+                android:text="@string/Fecha_hora_actual_TXT"
+                android:textSize="15sp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--HORA ACTUAL-->
+        <TextView
+            android:id="@+id/Fecha_hora_actual"
+            android:hint="@string/Fecha_hora_actual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins">
+        </TextView>
+        <!--TITULO-->
+        <EditText
+            android:id="@+id/Titulo"
+            android:hint="@string/Titulo"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <!--DESCRIPCION-->
+        <EditText
+            android:id="@+id/Descripcion"
+            android:hint="@string/Descripcion"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:minHeight="150dp"
+            android:gravity="start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <!--BOTON ABRIR CALENDARIO-->
+            <Button
+                android:id="@+id/Btn_Calendario"
+                android:text="@string/Btn_Calendario"
+                app:icon="@drawable/icono_calendario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+            <!--VISUALIZAR FECHA ELEGIDA-->
+            <TextView
+                android:id="@+id/Fecha"
+                android:hint="@string/Fecha"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/poppins"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <TextView
+            android:id="@+id/Estado"
+            android:text="@string/Estado"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detalle.Detalle_Nota">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <!--ICONO Y TXT 1-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--ICONO-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/id_nota_detalle">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <!--TXT-->
+            <TextView
+                android:text="@string/Id_nota_Detalle_TXT"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins"
+                android:textSize="15sp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--DATO 1-->
+        <TextView
+            android:id="@+id/Id_nota_Detalle"
+            android:text="@string/Id_nota_Detalle"
+            android:fontFamily="@font/poppins"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <!--ICONO Y TXT 2-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <!--ICONO-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/uid_usuario_detalle">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <!--TXT-->
+            <TextView
+                android:text="@string/Uid_usuario_Detalle_TXT"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins"
+                android:textSize="15sp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--DATO 2-->
+        <TextView
+            android:id="@+id/Uid_usuario_Detalle"
+            android:text="@string/Uid_usuario_Detalle"
+            android:fontFamily="@font/poppins"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <!--ICONO Y TXT 3-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <!--ICONO-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/correo_usuario_detalle">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <!--TXT-->
+            <TextView
+                android:text="@string/Correo_usuario_Detalle_TXT"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins"
+                android:textSize="15sp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--DATO 3-->
+        <TextView
+            android:id="@+id/Correo_usuario_Detalle"
+            android:text="@string/Correo_usuario_Detalle"
+            android:fontFamily="@font/poppins"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <!--ICONO Y TXT 4-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <!--ICONO-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/titulo_nota_detalle">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <!--TXT-->
+            <TextView
+                android:text="@string/Titulo_Detalle_TXT"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins"
+                android:textSize="15sp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--DATO 4-->
+        <TextView
+            android:id="@+id/Titulo_Detalle"
+            android:text="@string/Titulo_Detalle"
+            android:fontFamily="@font/poppins"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <!--ICONO Y TXT 5-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <!--ICONO-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/descripcion_nota_detalle">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <!--TXT-->
+            <TextView
+                android:text="@string/Descripcion_Detalle_TXT"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins"
+                android:textSize="15sp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--DATO 5-->
+        <TextView
+            android:id="@+id/Descripcion_Detalle"
+            android:text="@string/Descripcion_Detalle"
+            android:fontFamily="@font/poppins"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp">
+
+        </TextView>
+
+        <!--ICONO Y TXT 6-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <!--ICONO-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/fecha_registro_detalle">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <!--TXT-->
+            <TextView
+                android:text="@string/Fecha_Registro_Detalle_TXT"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins"
+                android:textSize="15sp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--DATO 6-->
+        <TextView
+            android:id="@+id/Fecha_Registro_Detalle"
+            android:text="@string/Fecha_Registro_Detalle"
+            android:fontFamily="@font/poppins"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <!--ICONO Y TXT 7-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <!--ICONO-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/fecha_nota_detalle">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <!--TXT-->
+            <TextView
+                android:text="@string/Fecha_Nota_Detalle_TXT"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins"
+                android:textSize="15sp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--DATO 7-->
+        <TextView
+            android:id="@+id/Fecha_Nota_Detalle"
+            android:text="@string/Fecha_Nota_Detalle"
+            android:fontFamily="@font/poppins"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <!--ICONO Y TXT 8-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <!--ICONO-->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/estado_detalle">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <!--TXT-->
+            <TextView
+                android:text="@string/Estado_Detalle_TXT"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins"
+                android:textSize="15sp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--DATO 8-->
+        <TextView
+            android:id="@+id/Estado_Detalle"
+            android:text="@string/Estado_Detalle"
+            android:fontFamily="@font/poppins"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

@@ -16,7 +16,7 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="130dp"
+            android:layout_height="150dp"
             app:cardBackgroundColor="@color/colorPrimaryDark"
             app:cardUseCompatPadding="true"
             android:padding="0.2dp"
@@ -25,64 +25,155 @@
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:orientation="vertical">
+                android:orientation="horizontal"
+                android:weightSum="4">
 
-                <TextView
-                    android:textColor="#fff"
-                    android:fontFamily="@font/poppins"
-                    android:textSize="15sp"
-                    android:text="@string/BienvenidoPrincipal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                </TextView>
-                <ProgressBar
-                    android:id="@+id/progressBarDatos"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginTop="10dp"
-                    android:layout_gravity="center">
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="2dp"
+                    android:src="@drawable/imagen_perfil">
 
-                </ProgressBar>
-                <!--UID-->
-                <TextView
-                    android:id="@+id/UidPrincipal"
-                    android:textColor="#fff"
-                    android:visibility="gone"
-                    android:fontFamily="@font/poppins"
-                    android:textSize="10sp"
-                    android:text="@string/UidPrincipal"
+                </androidx.appcompat.widget.AppCompatImageView>
+
+                <!--DATOS-->
+                <androidx.appcompat.widget.LinearLayoutCompat
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
 
-                </TextView>
-                <!--NOMBRES-->
-                <TextView
-                    android:id="@+id/NombresPrincipal"
-                    android:textColor="#fff"
-                    android:visibility="gone"
-                    android:fontFamily="@font/poppins"
-                    android:textSize="15sp"
-                    android:text="@string/NombresPrincipal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="#fff"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/poppins"
+                        android:textSize="15sp"
+                        android:text="@string/BienvenidoPrincipal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
 
-                </TextView>
-                <!--CORREO-->
-                <TextView
-                    android:id="@+id/CorreoPrincipal"
-                    android:textColor="#fff"
-                    android:visibility="gone"
-                    android:fontFamily="@font/poppins"
-                    android:textSize="15sp"
-                    android:text="@string/CorreoPrincipal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    </TextView>
+                    <ProgressBar
+                        android:id="@+id/progressBarDatos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center">
 
-                </TextView>
+                    </ProgressBar>
+                    <!--UID-->
+                    <TextView
+                        android:id="@+id/UidPrincipal"
+                        android:textColor="#fff"
+                        android:visibility="gone"
+                        android:fontFamily="@font/poppins"
+                        android:textSize="10sp"
+                        android:text="@string/UidPrincipal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <!--NOMBRE C-->
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/Linear_Nombres"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/nombre_menu">
+
+                        </androidx.appcompat.widget.AppCompatImageView>
+
+                        <!--NOMBRES-->
+                        <TextView
+                            android:id="@+id/NombresPrincipal"
+                            android:textColor="#fff"
+                            android:fontFamily="@font/poppins"
+                            android:textSize="15sp"
+                            android:text="@string/NombresPrincipal"
+                            android:layout_marginStart="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <!--CORREO C-->
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/Linear_Correo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/correo_menu">
+
+                        </androidx.appcompat.widget.AppCompatImageView>
+
+                        <!--CORREO-->
+                        <TextView
+                            android:id="@+id/CorreoPrincipal"
+                            android:textColor="#fff"
+                            android:fontFamily="@font/poppins"
+                            android:textSize="15sp"
+                            android:layout_marginStart="10dp"
+                            android:text="@string/CorreoPrincipal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <!--VERIFICACION-->
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/Linear_Verificacion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/verificacion_principal">
+
+                        </androidx.appcompat.widget.AppCompatImageView>
+
+                        <!--ESTADO-->
+                        <Button
+                            android:id="@+id/EstadoCuentaPrincipal"
+                            android:textColor="#fff"
+                            android:fontFamily="@font/poppins"
+                            android:textSize="15sp"
+                            android:backgroundTint="#607d8b"
+                            android:layout_marginStart="10dp"
+                            android:text="@string/EstadoCuentaPrincipal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                        </Button>
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
 
             </androidx.appcompat.widget.LinearLayoutCompat>
+
 
         </androidx.cardview.widget.CardView>
 
@@ -166,6 +257,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:visibility="gone"
                 android:layout_marginTop="20dp"
                 android:weightSum="2">
 
